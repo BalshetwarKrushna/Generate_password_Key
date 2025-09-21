@@ -1,0 +1,155 @@
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box; 
+} 
+
+.password-box {
+
+  height: 300px;
+   border:4px solid rgb(234, 226, 226);
+  width: 800px;
+  border-radius: 10px;
+
+  display: flex;
+  margin: auto;
+  flex-Direction: column;
+
+  justify-Content: center;
+
+  margin-Top: 100px;
+
+  margin-left: 50px;
+
+}
+
+.password-display {
+  width: 500px;
+  height: 50px;
+  margin-top: 97px;
+  font-size: larger;
+  border-radius: 10px;
+}
+
+.password-generator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+h1 {
+  margin-Top: -180px;
+  margin-Left: 150px;
+  position: fixed;
+ 
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #00FFFF;
+
+}
+.selector{
+  display:flex;
+  flex-direction: row;
+  margin:auto;
+  font-weight: 500;
+  color: aliceblue;
+  gap:60px;
+}
+.btn{
+  height:55px;
+  margin-top: 96px;
+ border-radius: 10px;
+ background-color: #2196F3; /* Blue */
+color: white;
+}
+.btn:hover{
+background-color: #1c105f;
+   transform: translateY(-2px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* background-image: url(bgimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+
+   */
+}
+
+.password-generator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.password-box {
+  height: 300px;
+  ;
+  width: 800px;
+  ;
+  display: flex;
+  flex-Direction: column;
+
+  justify-Content: center;
+  
+  
+  margin-Top: 50px;
+  margin-left: 50px;
+
+}
+
+h1 {
+  margin-Top: -180px;
+  margin-Left: 150px;
+  position: fixed;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(239, 12, 12);
+}
+
+.password-display {
+  width: 500px;
+  height: 50px;
+  margin-top: 97px;
+  font-size: larger;
+  border-radius: 10px;
+
+
+}
+
+#btn {
+  width: 60pX;
+  height: 55px;
+  margin-top: 27px;
+  font-weight: 700;
+  border-radius: 7px;
+  background-color: rgb(31, 12, 239);
+
+
+}
+
+.selection {
+  font-weight: 500;
+  font-size: larger;
+  
+  color: rgb(216, 216, 210);
+
+
+}
